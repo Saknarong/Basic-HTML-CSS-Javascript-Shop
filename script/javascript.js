@@ -1,0 +1,1 @@
+document.getElementById("carousel").src = `../assets/carousel/carousel_1.png`

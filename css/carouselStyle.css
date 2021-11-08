@@ -1,0 +1,19 @@
+.prevCarousel, .nextCarousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.08);
+    border: 1px solid #1d1d1f42;
+    cursor: pointer;
+    opacity: 0.8;
+    color: #1d1d1f42;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.prevCarousel:active, .nextCarousel:active {
+    transform: scale(0.9);
+}

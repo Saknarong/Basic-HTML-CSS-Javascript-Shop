@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/commonStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../css/cartModalStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../css/productListStyle.css" />
+    <link rel="stylesheet" type="text/css" href="../css/carouselStyle.css" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <div class="container">
+        <div style="width: 100%">
+            <nav>
+                <p class="shop-name">Saknarong Shop</p>
+                <img id="cartButton" src="../assets/icon/bag.png" alt="bag_icon" width="auto" height="40%"/>
+            </nav>
+            <div class="carousel">
+                <div class="carouselButton">
+                    <carouselButton id="prevCarousel" class="prevCarousel"><</carouselButton>
+                    <carouselButton id="nextCarousel" class="nextCarousel">></carouselButton>
+                </div>
+                <div class="carousel-image-container">
+                    <img id="carousel" class="carousel-image" alt="carousel" width="100%" height="100%" style="object-fit: contain;" />
+                </div>
+            </div>
+            <productList id="productList">
+                productList
+            </productList>
+        </div>
+        <footer>
+            <p>© Copyright 2021 FED Basic Assessment</p>
+        </footer>
+        <div id="cartModal" class="cartModal">
+            <div id="modalContainer" class="modalContainer">
+                <div class="modal-header">
+                    <p>Cart</p>
+                </div>
+                <div id="modal-body" class="modal-body">
+                    <p>Empty cart</p>
+                </div>
+                <div class="modal-footer">
+                    <p id="close-modal" class="base-button button-close" style="margin: 0 4px 0 0">Close</p>
+                    <p class="base-button">Confirm order</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="../script/data.js"></script>
+<script type="text/javascript" src="../script/productScript.js"></script>
+<script type="text/javascript" src="../script/javascript.js"></script>
+<script type="text/javascript" src="../script/cartScript.js"></script>
+<script type="text/javascript" src="../script/carouselScript.js"></script>
+
+</html>
